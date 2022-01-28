@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-image: url("../images/pattern-background-desktop.svg");
+  background-size: cover;
+  font-family: "Red Hat Display";
+  font-weight: 500;
+  font-size: 1em;
+  line-height: 1.6;
+}
+
+.flex {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card-container {
+  background-color: #fff;
+  -webkit-box-shadow: -2px 10px 25px 4px rgba(56, 64, 85, 0.171);
+          box-shadow: -2px 10px 25px 4px rgba(56, 64, 85, 0.171);
+  width: 450px;
+  text-align: center;
+  border-radius: 25px;
+}
+
+.card-container .imagen img {
+  border-radius: 25px 25px 0 0;
+}
+
+.card-container .card-rest {
+  padding: 0 3em;
+}
+
+.card-container .card-rest .order {
+  padding: 0;
+  margin: 1.5em auto;
+  width: 100%;
+}
+
+.card-container .card-rest .order h2 {
+  font-weight: 900;
+  color: #1f2f56;
+  margin-bottom: 10px;
+  font-size: 1.6em;
+}
+
+.card-container .card-rest .order p {
+  color: #7280a7;
+}
+
+.card-container .card-rest .plan {
+  background-color: #f5f7ff;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 1.5em auto;
+  padding: 1em;
+}
+
+.card-container .card-rest .plan .planicon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card-container .card-rest .plan .plantext {
+  margin-left: 20px;
+}
+
+.card-container .card-rest .plan .plantext h3 {
+  font-size: 1em;
+  font-weight: 900;
+  color: #1f2f56;
+}
+
+.card-container .card-rest .plan .plantext p {
+  color: #7280a7;
+  font-weight: 700;
+}
+
+.card-container .card-rest .plan a {
+  font-weight: 700;
+  color: #3829e0;
+  -webkit-transition: ease 150ms;
+  transition: ease 150ms;
+}
+
+.card-container .card-rest .plan a:hover {
+  color: #877df7;
+}
+
+.card-container .card-rest .buttons {
+  text-align: center;
+}
+
+.card-container .card-rest .buttons button {
+  display: block;
+  padding: 1em 0;
+  margin: 1.5em 0;
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+  font-weight: 900;
+  cursor: pointer;
+  -webkit-transition: ease 150ms;
+  transition: ease 150ms;
+}
+
+.card-container .card-rest .buttons .shop {
+  background-color: #3829e0;
+  color: #fff;
+  -webkit-box-shadow: 1px 9px 25px 1px rgba(70, 73, 230, 0.418);
+          box-shadow: 1px 9px 25px 1px rgba(70, 73, 230, 0.418);
+}
+
+.card-container .card-rest .buttons .shop:hover {
+  background-color: #877df7;
+}
+
+.card-container .card-rest .buttons .cancel {
+  background-color: transparent;
+  color: #7280a7;
+}
+
+.card-container .card-rest .buttons .cancel:hover {
+  color: #1f2f56;
+}
+/*# sourceMappingURL=styles.css.map */
